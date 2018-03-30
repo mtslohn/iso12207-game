@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AlertModule } from 'ngx-bootstrap';
+import { NgDragDropModule } from 'ng-drag-drop';
 
 
 import { AppComponent } from './app.component';
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    AlertModule.forRoot(),
+    BrowserModule,
+    NgDragDropModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

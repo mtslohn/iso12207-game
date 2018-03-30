@@ -1,0 +1,15 @@
+.processo-draggable {
+  font-size: 0.8rem;
+  padding: 3px 5px;
+}
+
+.drag-hint-border {
+  border: none;
+}
+
+.grupo-processo-droppable { 
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0,0,0,.125);
+  margin-bottom: 20px;
+  padding: 10px;
+}
